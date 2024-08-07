@@ -51,7 +51,6 @@ const AccoutnsPage = () => {
 						</CardTitle>
 
 						<div className="mt-11 relative">
-              <Link href={"/aboutus/"}>
 							<button onClick={useCategory.onOpen} className="p-[3px] relative">
 								<div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
 								<div className="flex px-4 py-2 bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
@@ -59,7 +58,6 @@ const AccoutnsPage = () => {
 									Add New
 								</div>
 							</button>
-              </Link>
 							{/* <Button onClick={useCategory.onOpen} className="dark:text-[#0c1ca9] tracking-[1.5px]">
               <Plus className="size-4 mr-2" />
               Add New
