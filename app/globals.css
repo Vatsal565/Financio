@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .custom-box-shadow {
+    @apply shadow-none;
+    box-shadow: 0 0 3px black, 0 0 25px #869ae1, 0 0 50px #869ae1, 0 0 200px #869ae1;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0006);
+  }
+
+  .text-stroke {
+    -webkit-text-stroke: 0.5px white;
+  }
+
+  .welcome::before {
+    content: attr(data-content);
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    color: white;
+    border-right: 3px solid white;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+  }
+
+  .welcome:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 1px white);
+  }
+
+  .shadow1 {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  .shadow2{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .card{
+    transform-style: preserve-3d;
+  }
+  .card:hover{
+    transform: rotateY(180deg);
+  }
+  .thefront{
+    backface-visibility: hidden;
+  }
+  .theback{
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+  }
+}
