@@ -27,7 +27,8 @@ export default function RootLayout({
 		<ClerkProvider>
 			<html lang="en">
 				<head>
-				<link rel="icon" href="/favicon.ico" sizes="any"/>
+				<link rel="icon" href="/icon.ico" sizes="any"/>
+				<title>Financio</title>
 				</head>
 				<body className={inter.className}>
 					<ThemeProvider
