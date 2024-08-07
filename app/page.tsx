@@ -15,7 +15,7 @@ export default function Home() {
         <Feature />
         <PageWrapper>
 				{/* <section className="-mt-24 md:pt-5 md:pb-10 bg-gradient-to-t from-[#183EC2] to-[#EAEEFE] overflow-x-clip "> */}
-				<div className="w-full h-[600px] dark:bg-white">
+				<div className="w-full dark:bg-white">
 					<div className="p-5 text-center">
 						<div className="text-5xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
 							Meet Our Team

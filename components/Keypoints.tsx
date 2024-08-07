@@ -14,12 +14,12 @@ export const Keypoints = () => {
         <h1 className="text-3xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">
           Key Points
         </h1>
-        <div className="flex mt-10">
-          <div className="w-1/2 align-middle my-8">
+        <div className="lg:flex mt-10">
+          <div className="w-full lg:w-1/2 align-middle my-8">
             <h3 className=" text-2xl md:text-4xl mt-14 font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
               Add Accounts
             </h3>
-            <h5 className="w-1/2 mt-5 ">
+            <h5 className="w-full lg:w-1/2 mt-5 ">
               Easily integrate multiple bank accounts, credit cards, and
               financial assets in one place. Monitor your balances and
               transactions seamlessly.
@@ -34,12 +34,12 @@ export const Keypoints = () => {
           />
         </div>
 
-        <div className="flex mt-10">
-          <div className="w-1/2 align-middle my-8">
+        <div className="lg:flex mt-10">
+          <div className="w-full lg:w-1/2 align-middle my-8">
             <h3 className=" text-2xl md:text-4xl mt-14 font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
             Transactions with Payees
             </h3>
-            <h5 className="w-1/2 mt-5 ">
+            <h5 className="w-full lg:w-1/2 mt-5 ">
             Simplify your payments and record-keeping by associating
             transactions with specific payees. Track where your money is going
             and manage your financial relationships effortlessly.
@@ -54,12 +54,12 @@ export const Keypoints = () => {
           />
         </div>
 
-        <div className="flex mt-10 mb-10">
-          <div className="w-1/2 align-middle my-8">
+        <div className="lg:flex mt-10 mb-10">
+          <div className="w-full lg:w-1/2 align-middle my-8">
             <h3 className=" text-2xl md:text-4xl mt-14 font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
             Categories
             </h3>
-            <h5 className="w-1/2 mt-5 ">
+            <h5 className="w-full lg:w-1/2 mt-5 ">
             Organize your expenses and income into categories for better
             financial insights. Understand your spending habits and make
             informed budgeting decisions.
