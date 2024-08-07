@@ -57,7 +57,7 @@ function Footer() {
                     <li><Link href="#">Home</Link></li>
                     <li><Link href="#">About</Link></li>
                     <li><Link href="#">Team</Link></li>
-                    <li><Link href="#">Contact</Link></li>
+                    <li><Link href="/contactus/">Contact</Link></li>
                 </ul>
 			</div>
 			<div className="text-white border-t-2 border-blue-800 pt-2 text-center font-mono text-xs md:text-base">

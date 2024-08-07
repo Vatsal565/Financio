@@ -31,10 +31,6 @@ const routes = [
 		href: "/contactus/",
 		label: "Contact Us",
 	},
-	{
-		href: "/aboutus/",
-		label: "Team",
-	},
 ];
 
 function Navigation() {

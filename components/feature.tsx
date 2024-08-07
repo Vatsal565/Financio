@@ -32,7 +32,7 @@ export const Feature = () => {
               About Us
             </h1>
             <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-            At Financio, we believe that managing your finances should be simple, intuitive, and stress-free. Whether you're an individual looking to keep track of personal expenses or a business aiming to streamline financial operations, Financio is designed to meet all your financial management needs.
+            At Financio, we believe that managing your finances should be simple, intuitive, and stress-free. Whether you`&apos;`re an individual looking to keep track of personal expenses or a business aiming to streamline financial operations, Financio is designed to meet all your financial management needs.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
           

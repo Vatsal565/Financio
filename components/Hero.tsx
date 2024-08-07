@@ -19,7 +19,7 @@ export const Hero = () => {
               Finance with Financio
             </h1>
             <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-              Discover expert financial advice, investment tips, and wealth management strategies. Our comprehensive resources and personalized guidance help you make informed decisions, grow your wealth, and secure your financial future. Start your journey to financial success with us today.
+            Financio is a comprehensive Finance SaaS website designed to simplify financial management. It allows users to add accounts, categorize transactions, and manage payees efficiently. Built with cutting-edge technologies like Next.js, Hono API, and Drizzle ORM, Financio offers a fast, intuitive, and customizable experience, ensuring seamless financial operations for its users.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
               <Link href="/sign-in">
@@ -29,12 +29,6 @@ export const Hero = () => {
 									Sign In
 								</div>
 							</button>
-              </Link>
-              <Link href="/aboutus/">
-              <button className="bg-white text-black px-4 py-2 m-5 rounded-lg font-medium inline-flex align-items gap-2 items-center tracking-tight">
-                <span>learn more</span>
-                <img src="/arrow-right.svg" alt="arrow" className="w-7" />
-              </button>
               </Link>
             </div>
           </div>
