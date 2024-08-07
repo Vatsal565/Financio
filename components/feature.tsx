@@ -12,8 +12,8 @@ export const Feature = () => {
     <section className="pt-8 pb-20 md:pt-5 md:pb-10 bg-gradient-to-b from-[#183EC2] to-[#EAEEFE] overflow-x-clip ">
 <div className="container">
         <div className="md:flex items-center">
-        <div className="mt-20 md:mt-0 md:h-[648px] mr-10 md:flex-1 relative ">
-        <motion.img src='/tube.png' height={600} width={600} className="absolute top-18 left-20"animate={{
+        <div className="mt-10 md:mt-10 md:h-[648px] mr-10 md:flex-1 relative ">
+        <motion.img src='/tube.png' height={600} width={600} className="hidden lg:block absolute top-18 left-20"animate={{
               x: 0,
               y: 0,
               scale: 1,

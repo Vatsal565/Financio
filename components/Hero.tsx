@@ -11,7 +11,7 @@ import { SparklesCore } from "./ui/sparkles";
 export const Hero = () => {
   return (
     <section className="pt-8 pb-20 md:pt-5 md:pb-10 bg-gradient-to-t from-[#183EC2] to-[#EAEEFE] overflow-x-clip ">
-      <div className="container">
+      <div className="container mb-10">
         <div className="md:flex items-center">
           <div className="md:w-[478px]">
           
