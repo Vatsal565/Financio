@@ -6,6 +6,7 @@ import cylinderImage from "@/public/cylinder.png";
 import noodleImage from "@/public/noodle.png";
 import {motion} from "framer-motion";
 import Link from "next/link";
+import { SparklesCore } from "./ui/sparkles";
 
 export const Hero = () => {
   return (
@@ -13,6 +14,7 @@ export const Hero = () => {
       <div className="container">
         <div className="md:flex items-center">
           <div className="md:w-[478px]">
+          
             <h1 className="text-3xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">
               Finance with Financio
             </h1>
@@ -36,6 +38,7 @@ export const Hero = () => {
               </Link>
             </div>
           </div>
+          
           <div className="mt-20 md:mt-0 md:h-[648px] mr-10 md:flex-1 relative ">
             <motion.img
             src={cogImage.src}
@@ -85,6 +88,14 @@ export const Hero = () => {
           </div>
         </div>
       </div>
+      <SparklesCore
+          background="transparent"
+          minSize={0.4}
+          maxSize={1}
+          particleDensity={1200}
+          className="w-full h-full bottom-0 "
+          particleColor="#FFFFFF"
+        />
     </section>
   );
 };

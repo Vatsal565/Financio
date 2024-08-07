@@ -18,10 +18,10 @@ function LandingPage() {
 						<HeaderLogo />
 						<Navigation />
 					</div>
-					<div className="flex items-center gap-x-8">
+					<div className="flex items-center justify-center gap-x-8">
 					<div>
 						{isSignedIn ? (
-							<div>
+							<div className="flex items-center justify-center">
 								<ClerkLoaded>
 									<UserButton afterSignOutUrl="/" />
 								</ClerkLoaded>

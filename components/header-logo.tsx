@@ -5,10 +5,10 @@ function HeaderLogo() {
   return (
     <Link href='/'>
         <div className="items-center hidden lg:flex">
-            <Image src="/logo.svg" alt="logo" height={30} width={30} />
-            <p className="font-semibold text-2xl text-white ml-2.5">
+            <Image src="/logo2.svg" alt="logo" height={70} width={70} />
+            {/* <p className="font-semibold text-2xl text-white ml-2.5">
                 Financio
-            </p>
+            </p> */}
         </div>
     </Link>
   )

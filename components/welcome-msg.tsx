@@ -5,7 +5,7 @@ function WelcomeMsg() {
 	const { user, isLoaded } = useUser();
 	return (
 		<div className="space-y-2 mb-4">
-			<h2 className="w-fit text-3xl lg:text-4xl text-transparent font-bold text-stroke relative welcome"
+			<h2 className="w-full text-3xl lg:text-4xl text-transparent font-bold text-stroke relative welcome"
 			data-content={`Welcome Back, ${user?.firstName}`}>
 				Welcome Back{isLoaded ? ", " : " "}
 				{user?.firstName}

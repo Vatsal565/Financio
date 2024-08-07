@@ -8,7 +8,7 @@ export default function Page() {
 		<div className="min-h-screen grid grid-cols-1 lg:grid-cols-2 relative">
 			<div className="h-full lg:flex flex-col items-center justify-center px-4">
 				<div className="text-center space-y-4 pt-16 lg:pt-0">
-					<h1 className="font-bold text-5xl tracking-tighter bg-gradient-to-b from-[#183EC2] to-[#EAEEFE] text-transparent bg-clip-text">Welcome Back!</h1>
+					<h1 className="font-bold text-5xl tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">Welcome Back!</h1>
 					<p className="text-base text-[#7E8CA0]">
 						Log in or Create Account to get back to your dashboard!
 					</p>

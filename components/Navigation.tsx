@@ -70,7 +70,7 @@ function Navigation() {
 								className="w-full justify-start"
 							>
 							<div className="items-center flex">
-								<Image src="/logo.svg" alt="logo" height={30} width={30} />
+								<Image src="/logo2.svg" alt="logo" height={30} width={30} />
 								<p className="font-semibold dark:text-white ml-2.5">
 									Financio
 								</p>
